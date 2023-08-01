@@ -1,0 +1,22 @@
+.welcome-pannel{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #3C4748;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: #E5E4E2;
+}
+
+.welcome-pannel__title{
+    font-size: 40px;
+    margin: 20px;
+
+}
+
+.welcome-pannel__game{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}

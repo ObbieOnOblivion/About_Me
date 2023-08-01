@@ -1,0 +1,73 @@
+.footer{
+    background-color: #434343;
+    height: 200px;
+    width:100%;
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.footer__sections{
+
+}
+
+.footer__section_left{
+    margin-left: 30px;
+}
+
+.footer__section_right{
+    margin-left: auto;
+    margin-right: 80px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__company-img{
+    width: 90px;
+    mix-blend-mode: color-dodge;
+    border-radius: 20px;
+
+}
+
+/* make the img bellow transparent in procreate */
+.footer__github-logo{
+    width: 20px;
+    border-radius: 50%;
+}
+
+.footer__company-name{
+    margin: 0px;
+    margin-top: 7px;
+    margin-bottom: 93px;
+}
+
+.footer__contact{
+    margin-bottom: 23px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    /* border: 1px solid; */
+}
+
+.footer__github-link{
+    display: flex;
+    align-items: center;
+    color: #F7E7CE;
+    text-decoration: none;
+}
+
+.footer__github-link:visited{
+    color: #F7E7CE;
+}
+.footer__github-logo{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__section_right{
+        margin-right: 30px
+    }
+}
+

@@ -1,0 +1,9 @@
+.color-nav{
+    height: 8vh;
+    width: 130px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
