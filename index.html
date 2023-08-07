@@ -12,8 +12,28 @@
     </head>
     <body>
         <div class="page">
+            <div class="modal">
+                <div class="modal__container">
+                    <!-- <button class="modal__close-btn"></button> -->
+
+                    <form class="modal__form">
+                        <button class="modal__close_btn"></button>
+                        <h3 class="modal__header">Contact</h3>
+
+                        <label></label>
+                        <input type="email" class="modal__form-input" placeholder="Enter Your Email Address">
+                        <!-- <br> -->
+                        <label></label>
+                        <textarea type="text" class="modal__form-input modal__form-input_text"
+                        placeholder="Compose Email"></textarea>
+                        <!-- <br> -->
+                        <button class="modal__submit-btn">Submit</button>
+                    </form>
+
+                </div>
+            </div>
             <header class="header">
-                <h1 class="header__title" data-glitch="glitch"> Welcome to Obbie's lair</h1>
+                <h1 class="header__title" data-glitch="glitch"> Welcome to Obbie's lair </h1>
                 <div class="header__nav-pannel">
                     <!-- you probally wont need the bellow -->
                     <div class="color-nav">
@@ -33,10 +53,9 @@
             <div class="welcome-pannel">
                 <!-- bellow would change based on the button pressed -->
                 <h2 class="welcome-pannel__title">All About Me</h2> 
-                <button class="welcome-pannel__game"> PLAY </button>
                 <div class="gallery">
                     <ul class="gallery__cards">
-                        <li class="gallery__card">
+                        <!-- <li class="gallery__card">
                             <img class="galley__card-img" src="./images/Bitcoin.svg.png">
                             <div class="gallery__card-text">
                                 <h3 class="gallery__card-header">Welcome To My World</h3>
@@ -75,16 +94,22 @@
                                     gravida neque condimentum volutpat cursus fusce augue. Aptent praesent suscipit turpis 
                                     purus integer. Curabitur dictum nullam at dictumst fermentum primis sociosqu.</p>
                             </div>
-                        </li>
+                        </li> -->
 
                     </ul>
                     
                 </div>
             </div>
 
-            <tempalte>
-
-            </tempalte>
+            <template id="template">
+                <li class="gallery__card">
+                    <img class="galley__card-img" src="">
+                    <div class="gallery__card-text">
+                        <h3 class="gallery__card-header"></h3>
+                        <p class="gallery__card-paragraph"></p>
+                    </div>
+                </li>
+            </template>
 
             <footer class="footer">
                 <div class="footer__section footer__section_left">

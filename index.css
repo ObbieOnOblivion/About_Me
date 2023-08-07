@@ -4,6 +4,7 @@
 @import url("./blocks/footer.css");
 @import url("./blocks/gallery.css");
 @import url("./blocks/navigation.css");
+@import url("./blocks/modal.css");
 
 /* thre bellow need to go into a standard file */
 body{
