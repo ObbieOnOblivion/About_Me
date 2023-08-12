@@ -25,6 +25,7 @@
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 20px;
+    transition: font-size .4s ease-in;
 
 }
 
@@ -32,6 +33,7 @@
     max-width: 300px;
     max-height: 300px;
     flex-grow: 0;
+    transition: transform .4s ease-in-out .1s ;
 }
 
 .gallery__card-text{
@@ -43,6 +45,7 @@
 .gallery__card-paragraph{
     line-height: 30px;
     font-size: 18px;
+    transition: font-size .4s ease-in;
 }
 @media screen and (max-width: 779px) {
     .gallery__card{
@@ -53,3 +56,17 @@
     }
     
 }
+
+.gallery__card:hover{
+    box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.galley__card-img:hover{
+    transform: scale(.97);
+}
+
+.gallery__card-header:hover{
+    font-size: 28px;
+}
+

@@ -26,7 +26,7 @@
 
 .footer__company-img{
     width: 90px;
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
     border-radius: 20px;
 
 }
