@@ -34,9 +34,9 @@ const aboutMeContent = [
 const resumeContent = [
     {
         src: "./images/Bitcoin.svg.png",
-        title: "swish swish",
-        description: "swedish fish is the ish"
-    }
+        title: "swish swish swish",
+        description: "swedish fish is the fish"
+    } 
 ]
 
 const navigation = document.querySelector(".navigation");
